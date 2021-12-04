@@ -1,17 +1,30 @@
 .header{
 
     padding:22px 0;
-
+    &__gamburger{
+        display: none;
+    }
     &__container{
         display: flex;
         align-items: center;
     }
     &__logo{
-        margin-right: 58px;
+        min-width: 108px;
+        height: 29px;
         border: transparent;
     }
     &__logo:hover{
         transform: scale(1.15);
         transition: .3s ease;
+    }
+}
+@media only screen and (max-width:375px){
+    .header__logo{
+        min-width: 108px;
+        height: 29px;
+        margin-left: 110px;
+    }
+    .header__gamburger{
+        display: block;
     }
 }
