@@ -1,0 +1,22 @@
+.main__btn{
+    padding: 14px 39px;
+    background-color: #FCB72B;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 180px;
+    height: 53px;
+
+    &:hover{
+        opacity: 0.8;
+        color: #333;
+        background-color: greenyellow;
+
+        }
+    &:active{
+        opacity: 0.6;
+    }
+}
