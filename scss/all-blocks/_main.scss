@@ -4,3 +4,106 @@
 
 }
 // PRODUCT ABOUT
+
+.product{
+
+    position: relative;
+    margin-bottom: 200px;
+
+    &__img{
+        position: absolute;
+        border: 1px solid #E5ECF4;
+        margin-top: 35px;
+        margin-left: -145px;
+        z-index: -1;
+        width: 100%;
+        max-width: 1000px;
+
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    &__item+&__item{
+        margin-left: 30px;
+    }
+    &__pic{
+        margin-bottom: 40px;
+    }
+    &__heading{
+        margin: 0;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: #495567;
+        margin-bottom: 27px;
+    }
+    &__desc{
+        margin: 0;
+        font-family: Lexend Deca;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #939CAA;
+        width: 320px;
+
+    }
+}
+//  PRODUCT CONVENIENCE
+
+.convenience{
+
+
+    &__list{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 160px;
+    }
+
+    &__item:nth-child(even){
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    &__img{
+        margin-right: -170px;
+    }
+    &__img1{
+        margin-left: -170px;
+    }
+    &__heading{
+        margin: 0;
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 48px;
+        color: #495567;
+        margin-bottom: 24px;
+        width: 100%;
+        max-width: 445px;
+    }
+    &__desc{
+        margin: 0;
+        font-family: Lexend Deca;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        color: #939CAA;
+        margin-bottom: 40px;
+        width: 100%;
+        max-width: 445px;
+    }
+}

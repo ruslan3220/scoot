@@ -514,6 +514,125 @@ img {
           flex-grow: 1;
 }
 
+.product {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.product__img {
+  position: absolute;
+  border: 1px solid #E5ECF4;
+  margin-top: 35px;
+  margin-left: -145px;
+  z-index: -1;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.product__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product__item + .product__item {
+  margin-left: 30px;
+}
+
+.product__pic {
+  margin-bottom: 40px;
+}
+
+.product__heading {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #495567;
+  margin-bottom: 27px;
+}
+
+.product__desc {
+  margin: 0;
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #939CAA;
+  width: 320px;
+}
+
+.convenience__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.convenience__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+.convenience__item:nth-child(even) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.convenience__img {
+  margin-right: -170px;
+}
+
+.convenience__img1 {
+  margin-left: -170px;
+}
+
+.convenience__heading {
+  margin: 0;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 48px;
+  color: #495567;
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: 445px;
+}
+
+.convenience__desc {
+  margin: 0;
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #939CAA;
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 445px;
+}
+
 .hero__container {
   width: 100%;
   max-width: 1440px;
