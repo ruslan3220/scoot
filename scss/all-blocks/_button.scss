@@ -9,12 +9,14 @@
     color: #FFFFFF;
     width: 180px;
     height: 53px;
+    border: transparent;
 
     &:hover{
         opacity: 0.8;
         color: #333;
         background-color: greenyellow;
-
+        transform: scale(1.1);
+        transition: .3s ease;
         }
     &:active{
         opacity: 0.6;

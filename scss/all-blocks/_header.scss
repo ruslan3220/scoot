@@ -8,5 +8,10 @@
     }
     &__logo{
         margin-right: 58px;
+        border: transparent;
+    }
+    &__logo:hover{
+        transform: scale(1.15);
+        transition: .3s ease;
     }
 }

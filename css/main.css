@@ -445,12 +445,17 @@ img {
   color: #FFFFFF;
   width: 180px;
   height: 53px;
+  border: transparent;
 }
 
 .main__btn:hover {
   opacity: 0.8;
   color: #333;
   background-color: greenyellow;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
 }
 
 .main__btn:active {
@@ -472,6 +477,14 @@ img {
 
 .header__logo {
   margin-right: 58px;
+  border: transparent;
+}
+
+.header__logo:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
 }
 
 .navbar__list {
@@ -747,6 +760,14 @@ img {
   border-radius: 5px;
   background-color: #fff;
   padding: 12px 20px;
+  border: transparent;
+}
+
+.footer__top-link:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
 }
 
 .footer__top-link + .footer__top-link {
@@ -781,6 +802,13 @@ img {
   background-color: #333A44;
   padding: 36px 165px;
   margin-left: -18px;
+}
+
+.footer .footer-last__container .footer__logo:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
 }
 
 .footer .footer-last__container .footer__last {
